@@ -16,7 +16,6 @@ class SuggesterTest (unittest.TestCase):
 
     def test_get_empty_word(self):
         result = self.suggester.get("")
-        print(result)
         self.assertEqual(len(result), 0)
 
 
