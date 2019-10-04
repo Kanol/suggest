@@ -2,4 +2,4 @@ language: python
 rvm:
   - 3.7
 script:
-  - pytest
+  - ./tests.py
